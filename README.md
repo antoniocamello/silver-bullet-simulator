@@ -3,8 +3,6 @@
 > **Framework avançado de simulação de segurança para Red Team e palestras corporativas.**  
 > Desenvolvido por [Antonio Camelo](https://antoniocamelo.com) — CEH · CISSP
 
----
-
 ## ⚠️ Aviso Legal
 
 Este projeto é **exclusivamente para fins educacionais** e demonstrações de segurança **autorizadas**.  
@@ -13,7 +11,6 @@ O autor não se responsabiliza pelo uso indevido desta ferramenta.
 
 > *"A melhor defesa começa com o conhecimento do ataque."*
 
----
 
 ## Sobre o Projeto
 
@@ -27,8 +24,6 @@ Inspirado em frameworks públicos como [Atomic Red Team](https://github.com/redc
 - Material didático para treinamentos de Red/Blue Team
 - Palestras corporativas sobre postura de segurança
 
----
-
 ## Arquitetura
 
 ```
@@ -40,8 +35,6 @@ Silver Bullet v2.1
 ├── AlertModule        — Relatório no Desktop (UTF-16 LE)
 └── Orquestrador       — 4 fases sequenciais + --limpa
 ```
-
----
 
 ## 🎯 TTPs MITRE ATT&CK Cobertas
 
@@ -62,7 +55,6 @@ Silver Bullet v2.1
 | [T1564.003](https://attack.mitre.org/techniques/T1564/003/) | Hide Artifacts: Hidden Window | EvasionModule |
 | [T1106](https://attack.mitre.org/techniques/T1106/) | Native API | EvasionModule |
 
----
 
 ## ⚙️ Compilação
 
